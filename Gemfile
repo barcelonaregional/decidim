@@ -4,9 +4,9 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-gem "decidim", "0.16.0"
-# gem "decidim-consultations", "0.16.0"
-# gem "decidim-initiatives", "0.16.0"
+gem "decidim", "0.16"
+# gem "decidim-consultations", "0.16"
+# gem "decidim-initiatives", "0.16"
 
 gem "bootsnap", "~> 1.3"
 
@@ -27,4 +27,10 @@ group :development do
   gem "spring", "~> 2.0"
   gem "spring-watcher-listen", "~> 2.0"
   gem "web-console", "~> 3.5"
+end
+
+group :production do
+  gem "sidekiq"
+  gem "fog-aws"
+  gem "health_check"
 end
