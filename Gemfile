@@ -4,9 +4,13 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-gem "decidim", "0.16"
-# gem "decidim-consultations", "0.16"
-# gem "decidim-initiatives", "0.16"
+DECIDIM_VERSION = '0.16'
+
+gem "decidim", DECIDIM_VERSION
+# gem "decidim-initiatives", DECIDIM_VERSION
+# gem "decidim-consultations", DECIDIM_VERSION
+# gem "decidim-conferences", DECIDIM_VERSION
+# gem 'omniauth-decidim', git: 'https://github.com/decidim/omniauth-decidim'
 
 gem "bootsnap", "~> 1.3"
 
@@ -18,7 +22,7 @@ gem "faker", "~> 1.9"
 group :development, :test do
   gem "byebug", "~> 10.0", platform: :mri
 
-  gem "decidim-dev", "0.16.0"
+  gem "decidim-dev", DECIDIM_VERSION
 end
 
 group :development do
