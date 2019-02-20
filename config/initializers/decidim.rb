@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 Decidim.configure do |config|
-  config.application_name = "Decidim Barcelona Regional"
-  config.mailer_sender = "noreply@decidim.barcelonaregional.cat"
+  config.application_name = "Participa Premet25"
+  config.mailer_sender = "noreply@participa.premet25.cat"
 
   # Change these lines to set your preferred locales
   config.default_locale = :ca
