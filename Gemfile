@@ -24,6 +24,7 @@ gem "sidekiq-cron"
 
 group :development, :test do
   gem "byebug", "~> 10.0", platform: :mri
+  gem 'dotenv-rails'
 
   gem "decidim-dev", DECIDIM_VERSION
 end
