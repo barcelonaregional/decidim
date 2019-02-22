@@ -1,0 +1,11 @@
+/*
+ *= require decidim/email
+ */
+
+table.body th.decidim-bar, table.body td.decidim-bar{
+  /* background-color: #ffffff; */
+}
+
+.cityhall-bar{
+  /* background-color: #ff0000; */
+}
