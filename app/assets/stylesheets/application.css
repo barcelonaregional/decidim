@@ -15,10 +15,16 @@
  *= require_self
  */
 
+/* Expand footer logo */
 .main-footer__badge {
   display: block;
   width: auto;
   /* height: 30px; */
   max-width: 400px;
   text-align: center;
+}
+
+/* Expand footer */
+main__footer__nav {
+	width: 100%;
 }
