@@ -4,13 +4,13 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-DECIDIM_VERSION = '0.16'
+DECIDIM_VERSION = "0.16"
 
 gem "decidim", DECIDIM_VERSION
 # gem "decidim-initiatives", DECIDIM_VERSION
 # gem "decidim-consultations", DECIDIM_VERSION
 # gem "decidim-conferences", DECIDIM_VERSION
-# gem 'omniauth-decidim', git: 'https://github.com/decidim/omniauth-decidim'
+# gem "omniauth-decidim", git: "https://github.com/decidim/omniauth-decidim"
 
 gem "bootsnap", "~> 1.3"
 
@@ -19,13 +19,10 @@ gem "uglifier", "~> 4.1"
 
 gem "faker", "~> 1.9"
 gem "health_check"
-gem "sidekiq"
-gem "sidekiq-cron"
 
 group :development, :test do
   gem "byebug", "~> 10.0", platform: :mri
-  gem 'dotenv-rails'
-
+  gem "dotenv-rails"
   gem "decidim-dev", DECIDIM_VERSION
 end
 
@@ -39,4 +36,6 @@ end
 
 group :production do
   gem "fog-aws"
+  gem "sidekiq"
+  gem "sidekiq-cron"
 end
