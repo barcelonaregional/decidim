@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-DECIDIM_VERSION = "0.16"
+DECIDIM_VERSION = "0.16.1"
 
 gem "decidim", DECIDIM_VERSION
 # gem "decidim-initiatives", DECIDIM_VERSION
@@ -22,7 +22,6 @@ gem "health_check"
 
 group :development, :test do
   gem "byebug", "~> 10.0", platform: :mri
-  gem "dotenv-rails"
   gem "decidim-dev", DECIDIM_VERSION
 end
 
