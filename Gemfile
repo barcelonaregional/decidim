@@ -21,9 +21,8 @@ gem "uglifier", "~> 4.1"
 
 gem "faker", "~> 1.9"
 gem "health_check"
-gem "sidekiq", "~> 5.2"
-gem "sidekiq-cron"
-gem "sentry-raven"
+gem "sentry-rails"
+gem "sentry-ruby"
 
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
@@ -40,5 +39,7 @@ group :development do
 end
 
 group :production do
+  gem "sidekiq"
+  gem "sidekiq-cron"
   gem "fog-aws"
 end
