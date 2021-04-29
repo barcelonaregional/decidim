@@ -13,7 +13,7 @@ gem "decidim", DECIDIM_VERSION
 # gem "decidim-conferences", DECIDIM_VERSION
 gem "omniauth-decidim", git: "https://github.com/decidim/omniauth-decidim"
 
-gem "geocoder", "1.5.2"
+gem "geocoder", "1.6.1"
 gem "bootsnap", "~> 1.4"
 
 gem "puma", "~> 4.3.3"
