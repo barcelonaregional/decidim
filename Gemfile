@@ -12,6 +12,7 @@ gem "decidim", DECIDIM_VERSION
 # gem "decidim-consultations", DECIDIM_VERSION
 # gem "decidim-conferences", DECIDIM_VERSION
 gem "omniauth-decidim", git: "https://github.com/decidim/omniauth-decidim"
+gem "decidim-decidim_awesome", "~> 0.7.0"
 
 gem "bootsnap", "~> 1.4"
 gem "health_check"
