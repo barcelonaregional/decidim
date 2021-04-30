@@ -26,9 +26,16 @@ $(function() {
   };
 
   let dismissedHelpers = getDismissedHelpers();
-
+  
   $(".floating-helper-container").each((_index, elem) => {
     let id = $(elem).data("help-id");
+
+    $(
+      ".floating-helper__trigger, .floating-helper__content-close",
+      elem
+    ).on("click", (ev) => {
+      ev.preventDefault();
+    });
 
     if (!dismissedHelpers.includes(id)) {
       $(".floating-helper", elem).foundation("toggle");
