@@ -10,13 +10,13 @@ checksums = [
     package: "decidim-core",
     files: {
       # layouts
-      "/app/views/decidim/devise/shared/_omniauth_buttons.html.erb" => "f4c15207534f0b170b420a102f72cc35",
-      "/app/assets/javascripts/decidim/floating_help.js.es6" => "d4e1add439a982df133a92e7293b41a8",
-      "/app/views/layouts/decidim/_main_footer.html.erb" => "aa621b251a3b7f22c670eb98e1a77105",
-      "/app/views/layouts/decidim/_mini_footer.html.erb" => "a542cf5dcbff8c33f5a5098a06f1ac2b",
+      "/app/views/decidim/devise/shared/_omniauth_buttons.html.erb" => "a456549c8f521b012ec7436d9e7111f4",
+      "/app/assets/javascripts/decidim/floating_help.js.es6" => "b25ba694db0fd880442b4310d9ece55c",
+      "/app/views/layouts/decidim/_main_footer.html.erb" => "a26a5a568485d84056f604ef013585a1",
+      "/app/views/layouts/decidim/_mini_footer.html.erb" => "55a9ca723b65b8d9eadb714818a89bb3",
       "/app/views/layouts/decidim/mailer.html.erb" => "5bbe335c1dfd02f8448af287328a49dc",
       # validators
-      "/app/validators/etiquette_validator.rb" => "ef21db526e4bec7cc574777937214cc1"
+      "/app/validators/etiquette_validator.rb" => "f7a4a652005385a994208f1ab41c4f08"
     }
   }
 ]
